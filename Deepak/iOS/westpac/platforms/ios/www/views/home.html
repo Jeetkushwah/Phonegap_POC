@@ -1,0 +1,33 @@
+<!-- Navigation -->
+    <nav id="header" class="navbar navbar-inverse navbar-fixed-top header_container" role="navigation">
+        <div class="container">
+            <a class="btn btn-primary btn-md pull-left" ng-click="refresh()" href>Refresh</a>
+            <h2 class="text-center">News</h2>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container-fluid">
+        <!-- Project One -->
+        <div class="row row_news"  ng-repeat="item in newsData.items | orderNewsBy:'dateLine' | limitTo : reapeatLimit" ng-click="redirect($index)">
+        	 <hr>
+            <div class="col-md-3 col-sm-3 col-xs-4 text-center" ng-if="item.thumbnailImageHref">
+                    <img class="img-responsive ng-hide" check-image  ng-src="{{item.thumbnailImageHref}}" alt="image_{{$index}}" />
+                    <img  id="image_{{$index}}" width="32" height="32" ng-src="img/loader.gif" />                 
+            </div>
+            <div class="col-md-9 col-sm-9 col-xs-8 news_title image_{{$index}}" ng-if="item.thumbnailImageHref">
+                <h3><a href>{{item.headLine}}</a></h3>               
+                <p>{{item.slugLine}}</p>                
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 news_title" ng-if="!item.thumbnailImageHref">
+                <h3><a href>{{item.headLine}}</a></h3>               
+                <p>{{item.slugLine}}</p>                
+            </div>
+             
+        </div>
+
+        <!-- /.row -->
+        
+         
+    </div>

@@ -1,0 +1,33 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.example.westpac"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.example.westpac"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.example.westpac"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.example.westpac"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.example.westpac"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.example.westpac"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.example.westpac"
+        }
+    },
+    "dependent_plugins": {}
+}
