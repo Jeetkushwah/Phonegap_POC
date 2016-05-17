@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="testApp" ng-controller="globalController">
+
+<head>
+    <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <title>Test App</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="scripts/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body list-scroller="scrollUpdateViewLimit()" >
+
+    
+    <div ng-view > </div>
+
+    <div class="comman-loader" ng-if="isLoader"><img src="img/ajax-loader.gif" alt="Loading" /></div>
+
+
+  <script src="scripts/libs/jquery/jquery-1.9.1.min.js"></script>
+  <script src="scripts/libs/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="scripts/libs/angular/angular.js"></script> 
+  <script src="scripts/libs/angular-animate/angular-animate.js"></script>
+  <script src="scripts/libs/angular-route/angular-route.js"></script>
+  <script src="scripts/libs/angular-touch/angular-touch.js"></script>
+    
+  <script src="scripts/constant.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/globalController.js"></script>
+  <script src="scripts/services/service.js"></script>
+  <script src="scripts/directives/directives.js"></script>
+
+</body>
+
+</html>

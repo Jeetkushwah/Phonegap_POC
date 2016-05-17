@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\ChetanData\Cordova\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="04ab5bc4cfc49e68c18925c78e0060d2ebdc1086">
+        <dex dex="D:\ChetanData\Cordova\build\intermediates\pre-dexed\debug\instant-run-bootstrap_e2dff0846a5b12eb00e0704c257d354f16adfbd8.jar" />
+    </item>
+    <item
+        jar="D:\ChetanData\Cordova\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="80c4e8ba67cc92dbb7777e0835aa7924bd858132">
+        <dex dex="D:\ChetanData\Cordova\build\intermediates\pre-dexed\debug\instant-run_7bee1a91e13b58474d5d6b4be3e454d2d32eaabb.jar" />
+    </item>
+
+</items>

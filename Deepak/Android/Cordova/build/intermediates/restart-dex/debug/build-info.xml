@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="16"
+    density="hdpi"
+    format="7"
+    timestamp="7843699378576" >
+
+    <task
+        name="javac"
+        duration="64" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="84" />
+    <task
+        name="verifier"
+        duration="34" />
+
+    <artifact
+        location="D:\ChetanData\Cordova\build\outputs\apk\Cordova-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="7843699378576" >
+        <artifact
+            location="D:\ChetanData\Cordova\build\outputs\apk\Cordova-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
